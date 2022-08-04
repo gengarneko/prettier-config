@@ -10,7 +10,9 @@
   ],
   "main": "index.json",
   "license": "MIT",
-  "keywords": ["prettier"],
+  "keywords": [
+    "prettier"
+  ],
   "author": {
     "name": "gengarneko",
     "url": "https://gengarneko.me"
