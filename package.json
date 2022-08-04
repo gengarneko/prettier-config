@@ -1,7 +1,7 @@
 {
   "name": "@gengarneko/prettier-config",
   "description": "Personal Prettier config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publishConfig": {
     "access": "public"
   },
@@ -9,6 +9,12 @@
     "index.json"
   ],
   "main": "index.json",
+  "scripts": {
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish",
+    "release": "pnpm run changeset && pnpm run changeset version && pnpm run changeset publish"
+  },
   "license": "MIT",
   "keywords": [
     "prettier"
@@ -18,9 +24,6 @@
     "url": "https://gengarneko.me"
   },
   "devDependencies": {
-    "changeset": "^0.2.6"
-  },
-  "dependencies": {
     "@changesets/cli": "^2.24.1"
   }
 }
