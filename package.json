@@ -1,7 +1,7 @@
 {
   "name": "@gengarneko/prettier-config",
   "description": "Personal Prettier config",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "publishConfig": {
     "access": "public"
   },
@@ -13,7 +13,8 @@
     "changeset": "changeset",
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish",
-    "release": "pnpm run changeset && pnpm run changeset version && pnpm run changeset publish"
+    "prerelease": "pnpm run changeset && pnpm run changeset version",
+    "release": "pnpm run changeset publish"
   },
   "license": "MIT",
   "keywords": [
